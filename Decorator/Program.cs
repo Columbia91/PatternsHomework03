@@ -24,7 +24,7 @@ namespace Decorator
         {
             public override void Move()
             {
-                Console.WriteLine("Карлсон проснулся");
+                Console.WriteLine("Карлсон проснулся и встал");
             }
         }
         abstract class Decorator : Component
